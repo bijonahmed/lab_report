@@ -1,0 +1,7 @@
+ER PR HER-2 Query: 
+SELECT * FROM tb_her_two WHERE pr_result= 'Positive.' AND tb_her_two.current_date BETWEEN '2016-01-01' AND '2016-12-11' 
+SELECT * FROM tb_her_two WHERE tb_her_two.current_date BETWEEN '2016-01-01' AND '2016-12-11';
+
+
+Single Line Reporting query:
+SELECT * FROM tbl_immuno_single_rpt WHERE tbl_immuno_single_rpt.note LIKE '%LCA%' AND tbl_immuno_single_rpt.current_date BETWEEN '2016-01-01' AND '2016-12-11' ;

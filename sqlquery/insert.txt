@@ -1,0 +1,2 @@
+ALTER TABLE `tb_her_two`
+	ADD COLUMN `kisixtyseven` INT NULL AFTER `rpt_noet`;
